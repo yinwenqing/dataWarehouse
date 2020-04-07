@@ -1,6 +1,7 @@
 package com.ywq.flume.interceptor;
 
 
+import org.apache.flume.Event;
 import org.apache.flume.interceptor.Interceptor;
 
 import java.nio.charset.Charset;
@@ -40,10 +41,10 @@ public class LogETLInterceptor implements Interceptor {
 
     @Override
     public List<org.apache.flume.Event> intercept(List<org.apache.flume.Event> events) {
-        ArrayList<Event> interceptors = new ArrayList<Event>();
+        ArrayList<Event> interceptors = new ArrayList<>();
 
         for (org.apache.flume.Event event : events) {
-            Event interceptor1=interceptor(event);
+            Event interceptor1=intercept(event);
 
             if(interceptor1!=null){
                 interceptors.add(interceptor1);
