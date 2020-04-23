@@ -172,7 +172,7 @@ public class AppMain {
         // 安卓系统版本
         appBase.setOs("8." + rand.nextInt(3) + "." + rand.nextInt(10));
 
-        // 语言  es,en,pt
+        // 语言  es,en,cn
         int flag = rand.nextInt(3);
         switch (flag) {
             case (0):
@@ -182,24 +182,33 @@ public class AppMain {
                 appBase.setL("en");
                 break;
             case (2):
-                appBase.setL("pt");
+                appBase.setL("cn");
                 break;
         }
 
         // 渠道号   从哪个渠道来的
-        appBase.setSr(getRandomChar(1));
+        flag = rand.nextInt(2);
+        switch (flag){
+            case 0:
+                appBase.setSr(getRandomChar(1));
+            case 1:
+                appBase.setSr(getRandomChar(2));
+
+        }
 
         // 区域
-        flag = rand.nextInt(2);
+        flag = rand.nextInt(3);
         switch (flag) {
             case 0:
                 appBase.setAr("BR");
             case 1:
                 appBase.setAr("MX");
+            case 2:
+                appBase.setAr("CN");
         }
 
         // 手机品牌 ba ,手机型号 md，就取2位数字了
-        flag = rand.nextInt(3);
+        flag = rand.nextInt(6);
         switch (flag) {
             case 0:
                 appBase.setBa("Sumsung");
@@ -212,6 +221,18 @@ public class AppMain {
             case 2:
                 appBase.setBa("HTC");
                 appBase.setMd("HTC-" + rand.nextInt(20));
+                break;
+            case 3:
+                appBase.setBa("APPLE");
+                appBase.setMd("APPLE-" + rand.nextInt(20));
+                break;
+            case 4:
+                appBase.setBa("OPPO");
+                appBase.setMd("OPPO-" + rand.nextInt(20));
+                break;
+            case 5:
+                appBase.setBa("VIVO");
+                appBase.setMd("APPLE-" + rand.nextInt(20));
                 break;
         }
 
