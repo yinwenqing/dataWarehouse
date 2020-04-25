@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62f5de8-e5c4-4c5f-8709-a0930594a4ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../udtf/src/main/java/com/ywq/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flumeInterceptor/src/main/java/com/ywq/flume/interceptor/aaa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ywq/application/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ywq/application/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ywq/application/AppMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ywq/application/AppMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udtf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udtf/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udtf/src/main/java/com/ywq/Appmain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udtf/src/main/java/com/ywq/FlatEventUDTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../udtf/src/main/java/com/ywq/FlatEventUDTF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udtf/src/main/java/com/ywq/aaa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udtf/target/classes/com/ywq/Appmain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udtf/target/classes/com/ywq/FlatEventUDTF.class" beforeDir="false" afterPath="$PROJECT_DIR$/../udtf/target/classes/com/ywq/FlatEventUDTF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udtf/target/classes/com/ywq/aaa.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ywq/application/AppMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="197" selection-start-line="197" selection-end-line="197" />
+            <state relative-caret-position="476">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -76,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,17 +121,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586695488212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587811150157" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,16 +180,18 @@
       <workItem from="1586783655676" duration="151000" />
       <workItem from="1587556240905" duration="379000" />
       <workItem from="1587645219065" duration="703000" />
+      <workItem from="1587796986816" duration="2630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3023000" />
+    <option name="totallyTimeSpent" value="5653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,8 +200,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2614458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -233,11 +225,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ywq/application/AppMain.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.51/fastjson-1.2.51.jar!/com/alibaba/fastjson/JSON.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ywq/application/AppMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5280">
-          <caret line="402" column="25" selection-start-line="402" selection-start-column="25" selection-end-line="402" selection-end-column="25" />
+        <state relative-caret-position="476">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -248,10 +252,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ywq/application/AppMain.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.51/fastjson-1.2.51.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        <state relative-caret-position="5280">
+          <caret line="402" column="25" selection-start-line="402" selection-start-column="25" selection-end-line="402" selection-end-column="25" />
         </state>
       </provider>
     </entry>

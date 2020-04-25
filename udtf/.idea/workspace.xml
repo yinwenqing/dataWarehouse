@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36c672c-7d1d-4452-abcc-d0b661b9642e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ywq/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flumeInterceptor/src/main/java/com/ywq/flume/interceptor/aaa.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../logCollector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../logCollector/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../logCollector/src/main/java/com/ywq/application/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../logCollector/src/main/java/com/ywq/application/AppMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../logCollector/target/classes/com/ywq/application/AppMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../logCollector/target/classes/com/ywq/application/AppMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ywq/Appmain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ywq/FlatEventUDTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ywq/FlatEventUDTF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ywq/aaa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ywq/Appmain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ywq/FlatEventUDTF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ywq/FlatEventUDTF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ywq/aaa.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,7 +107,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -125,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +154,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -271,16 +263,18 @@
       <workItem from="1587473702125" duration="1281000" />
       <workItem from="1587556160590" duration="1126000" />
       <workItem from="1587645218224" duration="558000" />
+      <workItem from="1587796986721" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7820000" />
+    <option name="totallyTimeSpent" value="8418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

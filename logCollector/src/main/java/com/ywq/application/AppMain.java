@@ -7,7 +7,11 @@ import com.ywq.bean.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.Objects;
 import java.util.Random;
 
 /**
@@ -44,6 +48,7 @@ public class AppMain {
         for (int i = 0; i < loop_len; i++) {
 
             int flag = rand.nextInt(2);
+
             switch (flag) {
                 case (0):
                     //应用启动
@@ -53,6 +58,12 @@ public class AppMain {
                     //控制台打印
 
                     logger.info(jsonString);
+
+                    writeToFile(jsonString);
+                    writeToFile("\n");
+
+
+
                     break;
 
                 case (1):
@@ -136,6 +147,10 @@ public class AppMain {
 
                     //控制台打印
                     logger.info(millis + "|" + json.toJSONString());
+
+                    writeToFile((millis + "|" + json.toJSONString()));
+                    writeToFile("\n");
+
                     break;
             }
 
@@ -146,6 +161,54 @@ public class AppMain {
                 e.printStackTrace();
             }
         }
+
+
+    }
+
+    /**
+     * 写入文件
+     *
+     * @param o
+     */
+    public static void writeToFile(Object o) {
+        File file = new File("/Users/yinwenqing/Downloads/files/" + "0415.csv");
+
+        if (!file.exists()) {
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        FileOutputStream outputStream = null;
+
+        try {
+            outputStream = new FileOutputStream(file,true);
+
+            outputStream.write(o.toString().getBytes());
+
+            outputStream.flush();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 关闭流
+     * @param outputStream
+     */
+    public static void closeStream(FileOutputStream outputStream) {
+
+        if (Objects.nonNull(outputStream)) {
+            try {
+                outputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
 
     /**
@@ -156,12 +219,14 @@ public class AppMain {
         AppBase appBase = new AppBase();
 
         //设备id
+        s_mid = rand.nextInt(2000);
         appBase.setMid(s_mid + "");
-        s_mid++;
+
 
         // 用户id
+        s_uid = rand.nextInt(1000);
         appBase.setUid(s_uid + "");
-        s_uid++;
+
 
         // 程序版本号 5,6等
         appBase.setVc("" + rand.nextInt(20));
@@ -188,7 +253,7 @@ public class AppMain {
 
         // 渠道号   从哪个渠道来的
         flag = rand.nextInt(2);
-        switch (flag){
+        switch (flag) {
             case 0:
                 appBase.setSr(getRandomChar(1));
             case 1:
@@ -668,6 +733,7 @@ public class AppMain {
 
         return appStart;
     }
+
     /**
      * 消息通知
      */
